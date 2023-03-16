@@ -4,7 +4,7 @@ const axios = require("axios");
 
 // config default axios dengan detail AKun Rajaongkir
 axios.defaults.baseURL = "https://api.rajaongkir.com/starter";
-axios.defaults.headers.common["key"] = "50d496e6e09cad468aa15f5084cfbe67";
+axios.defaults.headers.common["key"] = "-";
 axios.defaults.headers.post["Content-Type"] ="application/x-www-form-urlencoded";
 
 // route Get province
